@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <section class="container-fluid" id="header1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7">
+                        <p>
+                            GET SUPPORT: <a href="mailto:no-reply@domain.com">NO-REPLY@DOMAIN.COM</a>
+                        </p>
+                    </div>
+                    <div class="col-md-5 text-end d-none d-md-block">
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-facebook" viewBox="0 0 16 16" style="margin-left: 0;">
+                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                            </svg>
+                        </a>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                            </svg>
+                        </a>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                            </svg>
+                        </a>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-youtube" viewBox="0 0 16 16">
+                                <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid" id="header2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-lg-3">
+                        <a href="">
+                            <img src="images/logo.png" alt="" id="logo">
+                        </a>
+                    </div>
+                    <div class="col-6 d-lg-none text-end">
+                        <button type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="col-12 col-lg-9 d-none d-lg-block text-end">
+                        <nav>
+                            <ul class="text-end">
+                                <a href="#section1" id="about1" class="">
+                                    <li>ABOUT</li>
+                                </a>
+                                <a href="#main-prop" id="prop-nav" class="">
+                                    <li>PROPERTIES</li>
+                                </a>
+                                <a href="#main-agent" id="agent-nav">
+                                    <li>OUR AGENTS</li>
+                                </a>
+                                <a href="#main-blog" id="blog-nav">
+                                    <li>LATEST BLOGS</li>
+                                </a>
+                                <a href="#main-partner" id="partner-nav">
+                                    <li>PARTNER</li>
+                                </a>
+                                <a href="#main-contact" id="contact-nav">
+                                    <li>CONTACT</li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Toggle Menu -->
+        
+        <section class="container-fluid d-lg-none" style="background-color: #1C3F75;" id="header3">
+            <div class="container">
+                <div class="col-12">
+                    <nav class="collapse text-start" id="menu">
+                        <ul>
+                            <a href="#section1" class="">
+                                <li class="d-block">ABOUT</li>
+                            </a>
+                            <a href="#main-prop">
+                                <li class="d-block">PROPERTIES</li>
+                            </a>
+                            <a href="#main-agent">
+                                <li class="d-block">OUR AGENTS</li>
+                            </a>
+                            <a href="#main-blog">
+                                <li class="d-block">LATEST BLOGS</li>
+                            </a>
+                            <a href="#main-partner">
+                                <li class="d-block">PARTNER</li>
+                            </a>
+                            <a href="#main-contact">
+                                <li class="d-block" style="border: none;">CONTACT</li>
+                            </a>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <section class="container-fluid" id="headline">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-md-6 col-xl-6">
+                    <div class="row pb-5">
+                        <h2>The best way to find your properties and trusted service!</h2>
+                    </div>
+                    <div class="row pb-4">
+                        <div class="col-3 col-sm-2">
+                            <div class="num text-center">
+                                01
+                            </div>
+                        </div>
+                        <div class="col-8 col-sm-9">
+                            <h3>What makes us preferred choice.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga quas sapiente rerum reprehenderit suscipit optio</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3 col-sm-2">
+                            <div class="num text-center">
+                                02
+                            </div>
+                        </div>
+                        <div class="col-8 col-sm-9">
+                            <h3>Mile financing in real estate.</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga quas sapiente rerum reprehenderit suscipit optio</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-6">
+                    <form action="" class="w-0 text-center ps-sm-5 pe-sm-5">
+                        <h6 class="pt-5 pb-4">GET A FREE QUOTE!</h6>
+                        <input type="text" placeholder="*Your Name" required class="inp">
+                        <input type="email" placeholder="*Your Email" required class="inp">
+                        <input type="tel" name="" id="" placeholder="Your Phone" class="inp">
+                        <textarea name="" id="" placeholder="Your Message" class="message"></textarea>
+                        <button type="submit" class="mb-5">SEND MESSAGE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="container-fluid">
+        <section class="container text-center" id="section1">
+            <div class="row gy-5">
+                <div class="col-12 col-md-6 col-xl-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-house" viewBox="0 0 16 16">
+                        <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+                    </svg>
+                    <h3>REAL ESTATE APPRAISAL</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam autem in nobis voluptate</p>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-lightbulb" viewBox="0 0 16 16">
+                        <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1"/>
+                    </svg>
+                    <h3>REAL ESTATE GUIDE</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam autem in nobis voluptate</p>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-hand-thumbs-up" viewBox="0 0 16 16">
+                        <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2 2 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a10 10 0 0 0-.443.05 9.4 9.4 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a9 9 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.2 2.2 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.9.9 0 0 1-.121.416c-.165.288-.503.56-1.066.56z"/>
+                     </svg>
+                    <h3>FRIENDLY CUSTOMER SUPPORT</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam autem in nobis voluptate</p>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-hourglass-split" viewBox="0 0 16 16">
+                        <path d="M2.5 15a.5.5 0 1 1 0-1h1v-1a4.5 4.5 0 0 1 2.557-4.06c.29-.139.443-.377.443-.59v-.7c0-.213-.154-.451-.443-.59A4.5 4.5 0 0 1 3.5 3V2h-1a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-1v1a4.5 4.5 0 0 1-2.557 4.06c-.29.139-.443.377-.443.59v.7c0 .213.154.451.443.59A4.5 4.5 0 0 1 12.5 13v1h1a.5.5 0 0 1 0 1zm2-13v1c0 .537.12 1.045.337 1.5h6.326c.216-.455.337-.963.337-1.5V2zm3 6.35c0 .701-.478 1.236-1.011 1.492A3.5 3.5 0 0 0 4.5 13s.866-1.299 3-1.48zm1 0v3.17c2.134.181 3 1.48 3 1.48a3.5 3.5 0 0 0-1.989-3.158C8.978 9.586 8.5 9.052 8.5 8.351z"/>
+                    </svg>
+                    <h3>WE SAVE YOUR TIME</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam autem in nobis voluptate</p>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="container" id="section2">
+            <div class="row text-center">
+                <h2>RECENT PROPERTIES</h2>
+            </div>
+            <div class="row text-center">
+                <div class="col-sm-1 col-md-2 col-xl-3"></div>
+                <div class="col-12 col-sm-10 col-md-8 col-xl-6">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta consequuntur itaque incidunt veniam dolore animi asperiores inventore eaque.</p>
+                </div>
+                <div class="col-sm-1 col-md-2 col-xl-3"></div>
+            </div>
+        </section>
+        <section class="container" id="section3">
+            <div class="row">
+                <div class="col-12 col-md-4 gx-4 gy-5">
+                    <a href="">
+                        <div class="row" style="width: 100%; height: auto; margin: 0%;">
+                            <img src="images/11.jpg" alt="" style="padding: 0;">
+                        </div>
+                    </a>
+                    <div class="row text-center front">
+                        <a href="">
+                            <div style="padding: 0 25px;">
+                                <div class="tag mb-3">
+                                    BEDS: 04  |  BATHS: 03  |   SQUARE FT: 2015
+                                </div>
+                            </div>
+                        </a>
+                        <div class="mb-3">
+                            <a href="">MULTI FAMILY HOME FOR SALE</a>
+                        </div>
+                        <div class="location">
+                            20 Ward St Floral Park, New York NY 11001, <br>Stati Uniti, California
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 gx-4 gy-5">
+                    <a href="">
+                        <div class="row" style="width: 100%; height: auto; margin: 0%;">
+                            <img src="images/12.jpg" alt="" style="padding: 0;">
+                        </div>
+                    </a>
+                    <div class="row text-center front">
+                        <a href="">
+                            <div style="padding: 0 25px;">
+                                <div class="tag mb-3">
+                                    BEDS: 02  |  BATHS: 02  |   SQUARE FT: 1400
+                                </div>
+                            </div>
+                        </a>
+                        <div class="mb-3">
+                            <a href="">AMAZING OCEAN FRONT APARTMENT</a>
+                        </div>
+                        <div class="location">
+                            4 Ward St Floral Park, New York , NY 20152, <br>Stati Uniti, California
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 gx-4 gy-5">
+                    <a href="">
+                        <div class="row" style="width: 100%; height: auto; margin: 0%;">
+                            <img src="images/13.jpg" alt="" style="padding: 0;">
+                        </div>
+                    </a>
+                    <div class="row text-center front">
+                        <a href="">
+                            <div style="padding: 0 25px;">
+                                <div class="tag mb-3">
+                                    BEDS: 03  |  BATHS: 03  |   SQUARE FT: 1650
+                                </div>
+                            </div>
+                        </a>
+                        <div class="mb-3">
+                            <a href="">GORGEOUS IN GREEN HOUSE</a>
+                        </div>
+                        <div class="location">
+                            254 Ocean Dr, Miami Beach, FL 25139, <br>Stati Uniti, California
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="section4">
+            <div class="row text-center">
+                <div class="col-1"></div>
+                <div class="col-10">
+                    <a href="#main-prop"><button>VIEW ALL PROPERTY</button></a>
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </section>
+    </main>
+
+    <section class="container-fluid" id="section5">
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-12 col-xl-8 text-center text-xl-end align-self-center" style="font-size: 24px; font-family: 'Montserrat Medium';">
+                    Want to buy or rent property? Contact us now!
+                </div>
+                <div class="col-12 col-xl-4 text-center text-xl-start">
+                    <a href="#main-contact">
+                        <button>
+                            CONTACT US  &#160;>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="container-fluid text-center" id="main-prop">
+        <section class="container" id="section6">
+            <div class="row gy-5">
+                <div class="col-12 col-md-6 col-xl-3 prop">
+                    <a href="">
+                        <div class="row mb-4">
+                            <img src="images/14.jpg" alt="">
+                        </div>
+                    </a>
+                    <div class="row">
+                        <a href="">
+                            <div>
+                                <h3>GORGEOUS APARTMENT</h3>
+                            </div>
+                        </a>
+                        <div class="mb-2">
+                            <small>Beds: 03, Baths: 02, Square Feet: 1430</small>
+                        </div>
+                        <div>
+                            <p>$399  <del>$699</del></p>
+                        </div>
+                        <div>
+                            <a href="">
+                                <button>VIEW DETAILS  &#160;></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-xl-3 prop">
+                    <a href="">
+                        <div class="row mb-4">
+                            <img src="images/15.jpg" alt="">
+                        </div>
+                    </a>
+                    <div class="row">
+                        <a href="">
+                            <div>
+                                <h3>AMPLE PENTHOUSE</h3>
+                            </div>
+                        </a>
+                        <div class="mb-2">
+                            <small>Beds: 02, Baths: 02, Square Feet: 1569</small>
+                        </div>
+                        <div>
+                            <p>$355   <del>$469</del></p>
+                        </div>
+                        <div>
+                            <a href="">
+                                <button>VIEW DETAILS  &#160;></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-xl-3 prop">
+                    <a href="">
+                        <div class="row mb-4">
+                            <img src="images/16.jpg" alt="">
+                        </div>
+                    </a>
+                    <div class="row">
+                        <a href="">
+                            <div>
+                                <h3>LUXURY FAMILY HOME</h3>
+                            </div>
+                        </a>
+                        <div class="mb-2">
+                            <small>Beds: 04, Baths: 04, Square Feet: 3150</small>
+                        </div>
+                        <div>
+                            <p>$860   <del>$999</del></p>
+                        </div>
+                        <div>
+                            <a href="">
+                                <button>VIEW DETAILS  &#160;></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-xl-3 prop">
+                    <a href="">
+                        <div class="row mb-4">
+                            <img src="images/17.jpg" alt="">
+                        </div>
+                    </a>
+                    <div class="row">
+                        <a href="">
+                            <div>
+                                <h3>ROYAL DEEP PENTHOUSE</h3>
+                            </div>
+                        </a>
+                        <div class="mb-2">
+                            <small>Beds: 03, Baths: 03, Square Feet: 2200</small>
+                        </div>
+                        <div>
+                            <p>$560   <del>$740</del></p>
+                        </div>
+                        <div>
+                            <a href="">
+                                <button>VIEW DETAILS  &#160;></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container" id="section7">
+            <div class="row gy-5">
+                <div class="col-12 col-md-6 col-xl-3 prop">
+                    <a href="">
+                        <div class="row mb-4">
+                            <img src="images/18.jpg" alt="">
+                        </div>
+                    </a>
+                    <div class="row">
+                        <a href="">
+                            <div>
+                                <h3>VILLA IN HIALEAH</h3>
+                            </div>
+                        </a>
+                        <div class="mb-2">
+                            <small>Beds: 02, Baths: 02, Square Feet: 1685</small>
+                        </div>
+                        <div>
+                            <p>$460   <del>$650</del></p>
+                        </div>
+                        <div>
+                            <a href="">
+                                <button>VIEW DETAILS  &#160;></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-xl-3 prop">
+                    <a href="">
+                        <div class="row mb-4">
+                            <img src="images/19.jpg" alt="">
+                        </div>
+                    </a>
+                    <div class="row">
+                        <a href="">
+                            <div>
+                                <h3>WHISPERING HILLS APARTMENTS</h3>
+                            </div>
+                        </a>
+                        <div class="mb-2">
+                            <small>Beds: 05, Baths: 05, Square Feet: 3500</small>
+                        </div>
+                        <div>
+                            <p>$685   <del>$750</del></p>
+                        </div>
+                        <div>
+                            <a href="">
+                                <button>VIEW DETAILS  &#160;></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-xl-3 prop">
+                    <a href="">
+                        <div class="row mb-4">
+                            <img src="images/20.jpg" alt="">
+                        </div>
+                    </a>
+                    <div class="row">
+                        <a href="">
+                            <div>
+                                <h3>PARK FOREST APARTMENTS</h3>
+                            </div>
+                        </a>
+                        <div class="mb-2">
+                            <small>Beds: 03, Baths: 03, Square Feet: 2025</small>
+                        </div>
+                        <div>
+                            <p>$850   <del>$1000</del></p>
+                        </div>
+                        <div>
+                            <a href="">
+                                <button>VIEW DETAILS  &#160;></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-xl-3 prop">
+                    <a href="">
+                        <div class="row mb-4">
+                            <img src="images/21.jpg" alt="">
+                        </div>
+                    </a>
+                    <div class="row">
+                        <a href="">
+                            <div>
+                                <h3>THE VILLAGES AT CANTERFIELD</h3>
+                            </div>
+                        </a>
+                        <div class="mb-2">
+                            <small>Beds: 04, Baths: 04, Square Feet: 2635</small>
+                        </div>
+                        <div>
+                            <p>$455   <del>$560</del></p>
+                        </div>
+                        <div>
+                            <a href="">
+                                <button>VIEW DETAILS  &#160;></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section class="container-fluid" id="section8">
+        <div class="row">
+            <div class="col-1 d-xl-none d-xxl-block"></div>
+            <div class="col-12 col-xl-5 col-xxl-4 ps-2 pe-2 ps-xl-5 pe-xl-5 ps-xxl-2 pe-xxl-2" style="padding: 120px 20px;">
+                <div class="container-sm">
+                    <div class="row mb-1">
+                        <h2>Property Highlights</h2>
+                    </div>
+                    <div class="row mb-3">
+                        <p style="font-size: 18px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est inventore, omnis praesentium doloremque reprehenderit eius quasi</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="row">
+                                <div class="row align-items-center">
+                                    <div class="col-2 col-sm-2 col-xl-3">
+                                        <h3>01.</h3>
+                                    </div>
+                                    <div class="col-9 col-sm-10 col-xl-9">
+                                        <h4>Quiet neighbourhood</h4>
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et provident praesentium aut numquam nesciunt quam facilis optio corporis, vel debitis nostrum atque est</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="row mb-3">
+                                <div class="row align-items-center">
+                                    <div class="col-2 col-sm-2 col-xl-3">
+                                        <h3>02.</h3>
+                                
+                                    </div>
+                                    <div class="col-9 col-sm-10 col-xl-9">
+                                        <h4>Fabulous views</h4>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et provident praesentium aut numquam nesciunt quam facilis optio corporis, vel debitis nostrum atque est</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="row mb-3 mb-lg-4">
+                                <div class="row align-items-center">
+                                    <div class="col-2 col-sm-2 col-xl-3">
+                                        <h3>03.</h3>
+                                    </div>
+                                    <div class="col-9 col-sm-10 col-xl-9">
+                                        <h4>Great local community</h4>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et provident praesentium aut numquam nesciunt quam facilis optio corporis, vel debitis nostrum atque est</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="row">
+                                <div class="row align-items-center">
+                                    <div class="col-2 col-sm-2 col-xl-3">
+                                        <h3>04.</h3>
+                                    </div>
+                                    <div class="col-9 col-sm-10 col-xl-9">
+                                        <h4>Large play center in yard</h4>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et provident praesentium aut numquam nesciunt quam facilis optio corporis, vel debitis nostrum atque est</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1 d-xl-none d-xxl-block col-xxl-1"></div>
+            <div class="col-7 col-xxl-6" style="background: url(images/4.jpg); background-repeat: no-repeat; background-size: cover;">
+            </div>
+        </div>
+    </section>
+
+    <main class="container-fluid text-center" id="main-agent">
+        <section class="container" id="section9">
+            <div class="row text-center">
+                <h2>OUR AGENTS</h2>
+            </div>
+            <div class="row text-center">
+                <div class="col-sm-1 col-md-2 col-xl-3"></div>
+                <div class="col-12 col-sm-10 col-md-8 col-xl-6">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta consequuntur itaque incidunt veniam dolore animi asperiores inventore eaque.</p>
+                </div>
+                <div class="col-sm-1 col-md-2 col-xl-3"></div>
+            </div>
+        </section>
+
+        <section class="container" id="section10">
+            <div class="row">
+                <div class="col-12 col-md-4 gx-4 gy-5">
+                    <a href="">
+                        <div class="row" style="width: 100%; height: auto; margin: 0%;">
+                            <img src="images/7.jpg" alt="" style="padding: 0;">
+                        </div>
+                    </a>
+                    <div class="row front">
+                        <a href="">
+                            <h3>WILLIAM COOPER</h3>
+                        </a>
+                        <div class="location mb-3">PROPERTY AGENT</div>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste possimus tempore</p>
+                        <a href="">
+                            <button>VIEW PROFILE</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 gx-4 gy-5">
+                    <a href="">
+                        <div class="row" style="width: 100%; height: auto; margin: 0%;">
+                            <img src="images/5.jpg" alt="" style="padding: 0;">
+                        </div>
+                    </a>
+                    <div class="row front">
+                        <a href="">
+                            <h3>JAMIE DUPONT</h3>
+                        </a>
+                        <div class="location mb-3">REAL ESTATE CHAMPS</div>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste possimus tempore</p>
+                        <a href="">
+                            <button>VIEW PROFILE</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 gx-4 gy-5">
+                    <a href="">
+                        <div class="row" style="width: 100%; height: auto; margin: 0%;">
+                            <img src="images/6.jpg" alt="" style="padding: 0;">
+                        </div>
+                    </a>
+                    <div class="row front">
+                        <a href="">
+                            <h3>BRYAN JOHNSON</h3>
+                        </a>
+                        <div class="location mb-3">CLIENT MANAGER</div>
+                        <hr>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste possimus tempore</p>
+                        <a href="">
+                            <button>VIEW PROFILE</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section class="container-fluid">
+        <hr  id="main-blog">
+    </section>
+
+    <main class="container-fluid">
+        <section class="container text-center" id="section11">
+            <div class="row">
+                <h2>LATEST BLOGS</h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-1 col-md-2 col-xl-3"></div>
+                <div class="col-12 col-sm-10 col-md-8 col-xl-6">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique pariatur dicta qui aut molestiae consectetur ipsa officiis delectus asperiores!</p>
+                </div>
+                <div class="col-sm-1 col-md-2 col-xl-3"></div>
+            </div>
+        </section>
+        <section class="container" id="section12">
+            <div class="row">
+                <div class="col-12 col-md-4 gx-4 gy-5"> 
+                    <a href="">
+                        <div class="row">
+                            <img src="images/10.jpg" alt="">
+                        </div>
+                    </a>
+                    <div class="row front-tab">
+                        <a href="">
+                            <div class="mb-3">
+                                <button>
+                                    REAL ESTATE
+                                </button>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div>
+                                <h3>EFFECTIVE TIPS FOR THEFIRST-TIME HOME BUYERS.</h3>
+                            </div>
+                        </a>
+                        <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui reiciendis sunt veritatis inventore porro libero totam facilis dolores iure voluptate rerum voluptates quis, ullam fugiat earum perspiciatis accusantium dolor minus!</p>
+                        </div>
+                        <div>
+                            <hr>
+                        </div>
+                        <a href="">
+                            <div>
+                                <small>
+                                    15 SEPTEMBER 2015 / POSTED BY NATHEN FORD
+                                </small>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 gx-4 gy-5">
+                    <a href="">
+                        <div class="row">
+                            <img src="images/8.jpg" alt="">
+                        </div>
+                    </a>
+                    <div class="row front-tab">
+                        <a href="">
+                            <div class="mb-3">
+                                <button>
+                                    PROPERTY ADVICE
+                                </button>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div>
+                                <h3>HOW TO EASILY FIND THE RIGHT REAL ESTATE AGENT FOR YOU.</h3>
+                            </div>
+                        </a>
+                        <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui reiciendis sunt veritatis inventore porro libero totam facilis dolores iure voluptate rerum voluptates quis, ullam fugiat earum perspiciatis accusantium dolor minus!</p>
+                        </div>
+                        <div>
+                            <hr>
+                        </div>
+                        <a href="">
+                            <div>
+                                <small>
+                                    13 SEPTEMBER 2015 / POSTED BY JEREMY GIRARD
+                                </small>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 gx-4 gy-5">
+                    <a href="">
+                        <div class="row">
+                            <img src="images/9.jpg" alt="">
+                        </div>
+                    </a>
+                    <div class="row front-tab">
+                        <a href="">
+                            <div class="mb-3">
+                                <button>
+                                    REAL ESTATE
+                                </button>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div>
+                                <h3>CALLING ALL WIZARDS! HARRY POTTER'S HOME IS FOR SALE!</h3>
+                            </div>
+                        </a>
+                        <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui reiciendis sunt veritatis inventore porro libero totam facilis dolores iure voluptate rerum voluptates quis, ullam fugiat earum perspiciatis accusantium dolor minus!</p>
+                        </div>
+                        <div>
+                            <hr>
+                        </div>
+                        <a href="">
+                            <div>
+                                <small>
+                                    09 SEPTEMBER 2016 / POSTED BY DAN ROSE
+                                </small>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <hr id="main-partner">
+
+        <section class="container text-center" id="section13">
+            <div class="row">
+                <h2>OUR PARTNER</h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-1 col-md-2 col-xl-3"></div>
+                <div class="col-12 col-sm-10 col-md-8 col-xl-6">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis possimus fuga, tenetur dolorem, quibusdam nisi velit aliquam, iste eum porro debitis eaque</p>
+                </div>
+                <div class="col-sm-1 col-md-2 col-xl-3"></div>
+            </div>
+        </section>
+        <section class="container text-center" id="section14">
+            <div class="row">
+                <div class="col-6 col-md-3 part">
+                    <a href="">
+                        <img src="images/22.png" alt="">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3 part">
+                    <a href="">
+                        <img src="images/23.png" alt="">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3 part">
+                    <a href="">
+                        <img src="images/24.png" alt="">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3 part">
+                    <a href="">
+                        <img src="images/25.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 col-md-3 part">
+                    <a href="">
+                        <img src="images/26.png" alt="">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3 part">
+                    <a href="">
+                        <img src="images/27.png" alt="">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3 part">
+                    <a href="">
+                        <img src="images/28.png" alt="">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3 part">
+                    <a href="">
+                        <img src="images/29.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section class="container-fluid text-center" id="section15">
+        <div class="container">
+            <div class="row gy-5">
+                <div class="col-12 col-md-3">
+                    <div>
+                        <h2>1500</h2>
+                    </div>
+                    <div>
+                        HOUSES & VILLA
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-dash-lg" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div>
+                        <h2>1400</h2>
+                    </div>
+                    <div>
+                        SATISFIED CUSTOMERS
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-dash-lg" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div>
+                        <h2>1250</h2>
+                    </div>
+                    <div>
+                        AGENCIES
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-dash-lg" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div>
+                        <h2>1600</h2>
+                    </div>
+                    <div>
+                        SALES & RENTS
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-dash-lg" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="container-fluid" id="main-contact">
+        <section class="container" id="section16">
+            <div class="row text-center">
+                <h2>CONTACT US</h2>
+            </div>
+            <div class="row gy-5">
+                <div class="col-12 col-md-4">
+                    <div class="row">
+                        <div class="col-2 col-sm-4 text-end">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+                                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                            </svg>
+                        </div>
+                        <div class="col">
+                            <div>
+                                <small>301 The Greenhouse, Custard,</small>
+                            </div>
+                            <div>
+                                <small>Factory, London, E2 8DY.</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="row">
+                        <div class="col-2 col-sm-4 text-end">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-envelope" viewBox="0 0 16 16">
+                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                            </svg>
+                        </div>
+                        <div class="col">
+                            <div>
+                                <b>General Enquiries</b>
+                            </div>
+                            <div>
+                                <a href="mailto:no-reply@domain.com">
+                                    no-reply@domain.com
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="row">
+                        <div class="col-2 col-sm-4 text-end">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-phone" viewBox="0 0 16 16">
+                                <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                                <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+                            </svg>
+                        </div>
+                        <div class="col">
+                            <div>
+                                <b>Call Us Today!</b>
+                            </div>
+                            <div>
+                                <small>+44 (0) 123 456 7890</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="padding: 60px 0;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.0216918498027!2d-0.07939792349560737!3d51.5311619718187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cbc043f7079%3A0xf9b234218f784e9a!2smechareparer!5e0!3m2!1sen!2sng!4v1708033953410!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <form action="" id="end-form">
+                        <input type="text" id="name" placeholder="*Your Name" required class="inp-end" autocomplete="off">
+                        <input type="email" placeholder="*Your Email" required class="inp-end">
+                        <input type="tel" name="" id="" placeholder="Your Phone" class="inp-end">
+                    </form>
+                </div>
+                <div class="col-12 col-md-6 text-center text-md-start">
+                    <textarea name="" id="" placeholder="Your Message" class="message-end" form="end-form"></textarea>
+                    <button type="submit" form="end-form">SEND MESSAGE</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container-fluid">
+        <section class="container">
+            <div class="row align-items-start gy-4 mb-5  mb-md-4">
+                <div class="col-12 col-md-4">
+                    <a href="">
+                        <img src="images/logo1.png" alt="">
+                    </a>
+                </div>
+                <div class="col-12 col-md-4 text-md-center">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis assumenda quisquam</p>
+                </div>
+                <div class="col-12 col-md-4 text-md-end">
+                    <div>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-facebook" viewBox="0 0 16 16" style="margin-left: 0;">
+                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                            </svg>
+                        </a>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                            </svg>
+                        </a>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                            </svg>
+                        </a>
+                        <a href="">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-youtube" viewBox="0 0 16 16">
+                                <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="row text-center mt-5 mt-md-4">
+                <small>
+                    © 2024 LANDSCAPE.
+                </small>
+            </div>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/underscore@1.13.6/underscore-umd-min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
