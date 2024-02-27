@@ -306,6 +306,7 @@ section {
 
 #experience {
     position: relative;
+    padding-top: 6vh;
 }
 
 .experience-sub-title {
@@ -333,7 +334,7 @@ section {
 article {
     display: flex;
     width: 10rem;
-    justify-content: space-around;
+    justify-content: left;
     gap: 0.5rem;
 }
 
