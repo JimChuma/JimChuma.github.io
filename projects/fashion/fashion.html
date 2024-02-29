@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Boutique Project</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="container-fluid" style="background: #6b32e5 url(images/7xm.xyz742974.webp); background-repeat: no-repeat; background-size: cover; background-blend-mode: overlay; color: white; height: 750px;">
+        <nav id="desktop-nav" class="container-sm ps-4 pe-4 ps-sm-5 pe-sm-5 navbar navbar-expand-lg d-none d-lg-block" style="max-width: 1100px; height: 74px;">
+            <div class="container-fluid">
+                <div style="width: 100%;">
+                    <a class="navbar-brand" href="#" style="display: inline-block;">
+                        <img src="images/logo1.webp" alt="" style="width: 100px;">
+                    </a>
+                </div>
+                <div class="navbar" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" style="color: white; font-weight: 600;">Home</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: #e9e9e9;">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="color: #e9e9e9;">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="color: #e9e9e9;">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <form class="d-flex ms-3" role="search">
+                        <input class="form-control" type="search" placeholder="Search" aria-label="Search" style="border-radius: 5px 0 0 5px;">
+                        <button class="btn btn-outline-success" style="color: white; background-color: #198754; border: none; border-radius: 0 5px 5px 0;" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                          </svg></button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <nav id="mobile-nav" class="container-sm ps-4 pe-4 ps-sm-5 pe-sm-5 navbar navbar-expand-lg d-lg-none" style="max-width: 1100px; height: 74px;">
+            <div class="container-fluid" style="padding: 0;">
+                <div style="width: 100%; position: relative; display: flex; justify-content: space-between; align-items: center;">
+                    <div>
+                        <a class="navbar-brand" href="#" style="display: inline-block;">
+                            <img src="images/logo1.webp" alt="" style="width: 100px;">
+                        </a>
+                    </div>
+                    <div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon" style="fill: white;"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="navbar me-md-3 collapse" id="navbarTogglerDemo02" style="background-color: white; gap: 10px; padding: 40px 48px 40px 36px; position: absolute; top: 100%; right: 0; border-radius: 10px;">
+                    <div style="width: 100%; text-align: center; padding-top: 16px;">
+                        <form class="d-flex ms-3" role="search">
+                            <input class="form-control" type="search" placeholder="Search" aria-label="Search" style="border-radius: 5px 0 0 5px;">
+                            <button class="btn btn-outline-success" style="color: white; background-color: #198754; border: none; border-radius: 0 5px 5px 0;" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                              </svg></button>
+                        </form>
+                    </div>
+                    <div style="width: 100%; text-align: center;">
+                        <ul class="navbar-nav mb-2 mb-lg-0">
+                            <li class="nav-item mb-2 mb-sm-0">
+                            <a class="nav-link active" aria-current="page" href="#" style="color: #242635; font-weight: 600;">Home</a>
+                            </li>
+                            <li class="nav-item mb-2 mb-sm-0">
+                            <a class="nav-link" href="#" style="color: #4f515d;">Shop</a>
+                            </li>
+                            <li class="nav-item mb-2 mb-sm-0">
+                                <a class="nav-link" href="#" style="color: #4f515d;">Product</a>
+                            </li>
+                            <li class="nav-item mb-2 mb-sm-0">
+                                <a class="nav-link" href="#" style="color: #4f515d;">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container-sm ps-4 pe-4 ps-sm-5 pe-sm-5" style="max-width: 1100px;">
+            <div class="row align-items-center" style="height: 666px;">
+                <div class="col-12 col-md-6 align-items-end">
+                    <h1>Fashion that <br>reflects what your <br>identity is...</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum praesentium commodi reprehenderit, vitae distinctio, incidunt beatae ab, atque accusantium est sit porro repudiandae natus ducimus quae deleniti. At, animi ratione!</p>
+                    <button class="btn btn-primary" style="background-color: #198754; border: none;">Shop Now</button>
+                </div>
+                <div class="d-none d-xl-block col-12 col-md-6">
+                    <img src="images/crop.webp" alt="lady_wearing_hat" style="height: 676px;">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="container-fluid">
+        <div class="container-sm ps-4 pe-4 ps-sm-5 pe-sm-5" style="max-width: 1100px;">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div id="text" class="mb-3">
+                        <h4>Popular Product</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam magnam dolorem praesentium itaque</p>
+                    </div>
+                    <div class="img1 mb-3 mt-5 mt-md-3 d-md-none d-lg-block">
+                        <img src="images/pre1.webp" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 mt-md-3 mt-lg-2 mt-xl-0">
+                    <div class="img2 mb-3">
+                        <img src="images/pre2a.webp" alt="">
+                    </div>
+                    <div class="img2 mb-3">
+                        <img src="images/pre2c.webp" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3 mt-md-3 mt-lg-2 mt-xl-0">
+                    <div class="img3 mb-3">
+                        <img src="images/pre2b.webp" alt="">
+                    </div>
+                    <div class="img3 mb-3">
+                        <img src="images/pre2d.webp" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center" style="padding-top: 10px;">
+                <img src="images/view.webp" alt="view_button" style="width: 200px; display: block;">
+            </div>
+        </div>
+        <div class="container-sm ps-4 pe-4 ps-sm-5 pe-sm-5" style="max-width: 1100px; padding: 20px 0 10px 0;">
+            <div class="row text-center" style="padding: 40px 12px;">
+                <h3>Our Best Selling Product</h3>
+                <p style="padding: 20px 0;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt <br>labore soluta debitis quos repellendus</p>
+            </div>
+            <div class="row align-items-center gx-4 gy-3">
+                <div class="col-12 d-md-none d-lg-block col-lg-4">
+                    <img src="images/pre4a.webp" alt="">
+                </div>
+                <div class="col-12 d-md-none d-lg-block col-md-6 col-lg-4">
+                    <img src="images/pre3.webp" alt="">
+                </div>
+                <div class="col-12 d-md-none d-lg-block col-lg-4">
+                    <img src="images/pre4b.webp" alt="">
+                </div>
+                <div class="col-md-6 d-none d-md-block d-lg-none">
+                    <img src="images/pre4c.webp" alt="">
+                </div>
+                <div class="col-md-6 d-none d-md-block d-lg-none">
+                    <img src="images/pre4d.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+    <section class="container-fluid" style="background-color: #FF5742; color: white; padding: 100px 12px;">
+        <div class="container-sm ps-4 pe-4 ps-sm-5 pe-sm-5" style="max-width: 1100px;">
+            <div class="row gx-4 gy-4 align-items-center">
+                <div class="col-12 col-md-6 col-lg-5">
+                    <img src="images/pre5.webp" alt="">
+                </div>
+                <div class="col-12 col-md-6 col-lg-7">
+                    <h2>Join Our Newsletter</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi rem temporibus minus eos in eum eligendi veritatis accusamus ex, hic sunt cum quia tempora ducimus at debitis! Culpa, reprehenderit similique.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <main class="container-fluid">
+        <div class="container-sm ps-4 pe-4 ps-sm-5 pe-sm-5" style="max-width: 1100px;">
+            <div class="row align-items-center text-center mb-5">
+                <h2>Our Latest News &amp; Blog</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium unde culpa fugiat consequatur saepe, ipsa animi voluptates pariatur mollitia itaque! Et exercitationem libero ratione voluptate illo unde quas sunt cumque.</p>
+            </div>
+            <div class="row gy-3">
+                <div class="col-12 col-xl-7">
+                    <div class="row gy-3">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="images/pre6a.webp" alt="" class="img-fluid rounded-start">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Business of Fashion</h4>
+                                            <p class="card-text"><small class="text-body-secondary">Posted on 9th February, 2024</small></p>
+                                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, quam? Fuga facilis expedita</p>
+                                            <a href="" class="card-link" style="color: #FF5742;">See More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="images/pre6b.webp" alt="" class="img-fluid rounded-start">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Fashion Magazine</h4>
+                                            <p class="card-text"><small class="text-body-secondary">Posted on 9th February, 2024</small></p>
+                                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, quam? Fuga facilis expedita</p>
+                                            <a href="" class="card-link" style="color: #FF5742;">See More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-xl-5 d-none d-xl-block">
+                    <div class="card text-bg-dark" style="border-color: white;">
+                        <img src="images/pre6c.webp" class="card-img" alt="">
+                        <div class="card-img-overlay">
+                            <div style="height: 300px;"></div>
+                            <h4 class="card-title">Fashion Bomb Daily</h4>
+                            <p class="card-text"><small>Posted on 9th February, 2024</small></p>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, quam? Fuga facilis expedita</p>
+                            <a href="" class="card-link" style="color: #FF5742;">See More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="container-fluid">
+        <div class="container-sm ps-4 pe-4 ps-sm-5 pe-sm-5" style="max-width: 1100px;">
+            <div class="row gy-3">
+                <div class="col-12 col-md-3">
+                    <img src="images/logo.webp" alt="logo" style="width: 150px;" class="mb-3">
+                    <p style="color: #5f606d;">Lorem ipsum dolor sit amet consectetur adipisicing quisquam fugiat</p>
+                </div>
+                <div class="col-6 col-md-3">
+                    <h6 class="mb-3">Menu</h6>
+                    <a href="" class="mb-3">About</a>
+                    <a href="" class="mb-3">Service</a>
+                    <a href="">Marker</a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <h6 class="mb-3">Company</h6>
+                    <a href="" class="mb-3">Support</a>
+                    <a href="" class="mb-3">Service</a>
+                    <a href="" class="mb-3">Contact</a>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="mb-3">
+                        <h6 class="mb-3 foot">Our Online Media</h6>
+                        <img src="images/facebook.webp" alt="facebook" style="width: 25px; height: 25px;">
+                        <img src="images/instagram.webp" alt="instragram" style="width: 25px; height: 25px; margin: 0 20px;">
+                        <img src="images/twitter.webp" alt="twitter" style="width: 31px; height: 25px;">
+                    </div>
+                    <div class="mb-3">
+                        <h6 class="foot">Download App</h6>
+                        <img src="images/playstore.webp" alt="Playstore_icon" style="width: 150px; height: 50px; margin-top: 10px;">
+                        <img src="images/appstore.webp" alt="appstore_icon" style="width: 150px; height: 50px; margin-top: 10px;">
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row text-center">
+                <p style="color: #5f606d;">Copyright &#169; 2024. All rights reserved | Boutique Fashion Store</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

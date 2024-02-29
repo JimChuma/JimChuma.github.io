@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Trebuchet MS';
+    src: url(../fonts/trebuchet_ms_bold-webfont.woff2) format('woff2'),
+         url(../fonts/trebuchet_ms_bold-webfont.woff) format('woff');
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.foot {
+    font-weight: 700;
+}
+
+main {
+    padding: 100px;
+    background-color: #242635;
+    color: white;
+}
+
+footer {
+    background-color: #FDE5DB;
+    color: #242635;
+    padding: 50px;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: #5f606d;
+}
+
+nav {
+    color: white;
+}
+
+.navbar-toggler-icon {
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler {
+    --bs-navbar-toggler-border-color: rgba(255, 255, 255, 0.15);
+    --bs-navbar-color: rgba(255, 255, 255, 0.85);
+}
+
+@media screen and (max-width: 683px) {
+    #navbarTogglerDemo02{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 683px) {
+    #navbarTogglerDemo02{
+        max-width: 320px;
+    }
+}

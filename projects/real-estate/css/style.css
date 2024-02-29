@@ -1,27 +1,6 @@
-@font-face {
-    font-family: Montserrat;
-    src: url(../fonts/Montserrat/static/Montserrat-Regular.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-@font-face {
-    font-family: 'Montserrat Medium';
-    src: url(../fonts/Montserrat/static/Montserrat-Medium.ttf);
-}
-
-@font-face {
-    font-family: 'Montserrat Bold';
-    src: url(../fonts/Montserrat/static/Montserrat-Bold.ttf);
-}
-
-@font-face {
-    font-family: 'Montserrat Semi Bold';
-    src: url(../fonts/Montserrat/static/Montserrat-SemiBold.ttf);
-}
-
-@font-face {
-    font-family: 'Open Sans';
-    src: url(../fonts/Open_Sans/static/OpenSans-Regular.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
 
 #section1 svg {
     fill: #1ef9b0;
@@ -35,7 +14,8 @@ html {
 }
 
 header {
-    font-family: 'Montserrat Semi Bold', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     position: fixed;
     top: 0;
     width: 100%;
@@ -75,7 +55,8 @@ header {
 
 #header1 {
     background-color: #1C3F75;
-    font-family: 'Montserrat Medium', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     height: 36px;
     font-size: 11px;
     padding-left: 5px;
@@ -191,7 +172,7 @@ ul a {
     border-radius: 10px;
     width: 100%;
     margin: auto;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     padding: 20px 30px;
 }
@@ -199,7 +180,8 @@ ul a {
 #headline form h6 {
     color: white;
     border-radius: 5px;
-    font-family: 'Montserrat Bold';
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 18px;
 } 
 
@@ -224,13 +206,15 @@ ul a {
 
 #headline h2 {
     font-size: 45px;
-    font-family: 'Montserrat Medium', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     color: white;
 }
 
 #headline h3 {
     font-size: 18px;
-    font-family: 'Montserrat Medium', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     color: #1ef9b0;
 }
 
@@ -247,7 +231,8 @@ ul a {
     border-radius: 5px;
     background-color: #40dfaa;
     color: white;
-    font-family: 'Montserrat Semi Bold';
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     font-size: 13px;
 }
 
@@ -257,7 +242,8 @@ ul a {
 
 #headline .num {
     font-size: 20px;
-    font-family: 'Montserrat Medium', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     border: 1px solid #1ef9b0;
     border-radius: 50%;
     width: 50px;
@@ -276,7 +262,8 @@ main #section1 {
 
 main #section1 h3{
     font-size: 14px;
-    font-family: 'Montserrat Semi Bold', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
 main #section1 p {
@@ -285,7 +272,8 @@ main #section1 p {
 }
 
 main #section2 h2 {
-    font-family: 'Montserrat Bold', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 35px;
 }
 
@@ -302,7 +290,7 @@ main #section2 {
     background-color: #1C3F75;
     padding: 45px 10px;
     margin: 0;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     color: white
 }
 
@@ -335,7 +323,8 @@ main #section2 {
 
 #section4 a {
     text-decoration: none;
-    font-family: 'Montserrat Semi Bold', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     margin: 0 30px;
     font-size: 12px;
 }
@@ -374,7 +363,8 @@ main #section2 {
     border: 2px solid #1ef9b0;
     color: #1ef9b0;
     font-size: 14px;
-    font-family: 'Montserrat Semi Bold';
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
 #section5 button:hover {
@@ -391,7 +381,8 @@ main #section2 {
 
 .prop h3 {
     font-size: 13px;
-    font-family: 'Montserrat Semi Bold', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     color: #212529;
 }
 
@@ -402,7 +393,8 @@ main #section2 {
 
 .prop p {
     font-size: 15px;
-    font-family: 'Montserrat Semi Bold', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
 .prop a {
@@ -411,7 +403,8 @@ main #section2 {
 
 .prop button {
     font-size: 11px;
-    font-family: 'Montserrat Semi Bold', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     padding: 10px 25px;
     border: none;
     border-radius: 60px;
@@ -432,7 +425,7 @@ main #section2 {
 }
 
 #section8 {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     background-color: #1C3F75;
     color: white;
 }
@@ -456,7 +449,8 @@ main #section2 {
 }
 
 main #section9 h2 {
-    font-family: 'Montserrat Bold', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 35px;
 }
 
@@ -471,7 +465,8 @@ main #section9 {
 
 #section10 .front h3 {
     font-size: 14px;
-    font-family: 'Montserrat Semi Bold';
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
 #section10 .front p {
@@ -489,7 +484,8 @@ main #section9 {
 
 #section10 .front button {
     font-size: 14px;
-    font-family: 'Montserrat Semi Bold';
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     margin: 5px auto;
     padding: 10px 30px;
     border-radius: 5px;
@@ -509,7 +505,8 @@ main #section9 {
 }
 
 main #section11 h2 {
-    font-family: 'Montserrat Bold', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 35px;
 }
 
@@ -525,14 +522,15 @@ main #section11 {
 .front-tab {
     background-color: #1C3F75;
     padding: 45px 20px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     color: white;
 }
 
 .front-tab button {
     font-size: 10px;
-    font-family: 'Montserrat Medium';
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     border: none;
     border-radius: 5px;
     padding: 3px 8px;
@@ -542,18 +540,20 @@ main #section11 {
 
 .front-tab h3 {
     font-size: 14px;
-    font-family: 'Montserrat Bold';
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 .front-tab p {
     font-size: 14px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     color: #C7C8C9;
 }
 
 .front-tab small {
     font-size: 10px;
-    font-family: 'Montserrat Medium';
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     color: whitesmoke;
 }
 
@@ -567,7 +567,8 @@ main #section11 {
 }
 
 #section13 h2 {
-    font-family: 'Montserrat Bold', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 35px;
 }
 
@@ -606,7 +607,8 @@ main #section11 {
 }
 
 #section16 h2 {
-    font-family: 'Montserrat Bold', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     font-size: 35px;
     padding-bottom: 60px;
 }
@@ -627,7 +629,7 @@ main #section11 {
     margin-bottom: 15px;
     padding-left: 20px;
     font-size: 14px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     border: 1px solid #C7C8C9;
 }
 
@@ -639,7 +641,7 @@ main #section11 {
     resize: none;
     padding: 10px 0 0 20px;
     font-size: 14px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     border: 1px solid #C7C8C9;
 }
 
@@ -649,7 +651,8 @@ main #section11 {
     border: none;
     border-radius: 5px;
     font-size: 12px;
-    font-family: 'Montserrat Semi Bold';
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     background-color: #40dfaa;
     color: white;
 }
@@ -659,17 +662,17 @@ main #section11 {
 }
 
 #section16 b {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
 
 #section16 small {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 }
 
 #section16 a {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     text-decoration: none;
     color: #212529;
@@ -678,7 +681,7 @@ main #section11 {
 footer {
     padding: 80px 5px 60px 5px;   
     background-color: #1C3F75;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     color: white;
 }
 
